@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+@import "variables.css";
+@import "reset.css";
+/* Components*/
+@import "components/status-bar.css";
+
+/* pages */
+@import "pages_css/index.css";
+
+@import "" body {
+  font-family: "Yusei Magic", sans-serif;
+}

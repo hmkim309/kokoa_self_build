@@ -1,0 +1,94 @@
+.indexbody {
+  background-color: rgba(247, 230, 0, 1);
+  height: 100vh;
+}
+
+.index-header {
+  margin-top: 75px;
+  text-align: center;
+  margin-bottom: 65px;
+  letter-spacing: -0.05em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index-header h1 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.index-header p {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--gray);
+  width: 60%;
+  line-height: 22px;
+}
+
+.index-main-screen {
+  display: flex;
+  flex-direction: column;
+}
+
+form > input {
+  margin: 0px 25px;
+}
+
+form > input[placeholder] {
+  padding-bottom: 23px;
+  font-size: 18px;
+  color: var(--gray);
+  border-radius: 8px;
+}
+form > input[placeholder]:focus {
+  outline: none;
+}
+
+form > input[placeholder="Email or number"] {
+  border: none;
+  border-color: transparent;
+  border-bottom: 1.25px solid var(--gray);
+  margin-bottom: 20px;
+}
+form > input[placeholder="Email or number"]:focus {
+  outline: none;
+}
+
+form > input[placeholder="Password"] {
+  border: none;
+  border-bottom: 1.25px solid var(--gray);
+  margin-bottom: 33px;
+}
+
+form > input[type="submit"] {
+  padding: 18px 0;
+  border: none;
+  background-color: white;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 1s ease-in-out;
+}
+
+form > input[type="submit"]:focus {
+  outline: none;
+  background-color: #e12e4c;
+}
+
+form > input[value="Log in"] {
+  margin-bottom: 10px;
+}
+
+form > input[value="Sign Up"] {
+  margin-bottom: 25px;
+}
+
+form a {
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
