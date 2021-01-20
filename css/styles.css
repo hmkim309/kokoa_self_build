@@ -4,7 +4,7 @@
 
 /* Components*/
 @import "components/status-bar.css";
-
+@import "components/status-bar.css";
 /* pages */
 @import "pages_css/index.css";
 @import "pages_css/friends.css";
