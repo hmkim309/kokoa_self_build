@@ -1,0 +1,11 @@
+.top-row-component {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+.top-row-component h2 {
+  width: 70%;
+  font-weight: 600;
+  font-size: 26px;
+  margin-left: 20px;
+}

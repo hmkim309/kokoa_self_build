@@ -4,10 +4,14 @@
 
 /* Components*/
 @import "components/status-bar.css";
-@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/top-row-component.css";
+
 /* pages */
 @import "pages_css/index.css";
 @import "pages_css/friends.css";
-@import "" body {
+@import "pages_css/chats.css";
+
+body {
   font-family: "Yusei Magic", sans-serif;
 }
